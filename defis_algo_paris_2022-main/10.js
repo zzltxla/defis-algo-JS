@@ -6,7 +6,7 @@
 
 let usr = prompt("Please type in a number :");
 
-if (usr != isNaN(usr) && usr != parseFloat(usr)) {
+if (usr != isNaN(usr) && usr != parseFloat(usr) && (usr.includes('-')) == false) {
     
 } else {
     alert('Error');

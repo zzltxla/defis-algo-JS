@@ -4,4 +4,4 @@ let total = 1;
 for(let i = nombres; i!=0 ;i--){
     total*=i;
 }
-document.write(total + "<br>");
+console.log(total);

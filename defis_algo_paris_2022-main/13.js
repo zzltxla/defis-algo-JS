@@ -5,7 +5,7 @@ let newArr = [];
 
 function evenNb() {
     arr.forEach((element) => {
-        let test = Boolean(arr.find((element) => element !== (/^\d[13579]$/)));
+        let test = Boolean(arr.find((element) => element != (/[13579]/d)));
         if (test == true) {
             newArr.push(element);
         }
